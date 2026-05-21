@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlKhawaja Photography & Production</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Cinzel:wght@500;700&display=swap');
+        
+        body { font-family: 'Cairo', sans-serif; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        
+        /* الألوان المستوحاة من لوغو الخواجة بدقة */
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+        .hover-gold:hover { color: #f3cd44; }
+        
+        /* تأثيرات الإضاءة السينمائية */
+        .glow-effect:hover {
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+            border-color: #d4af37;
+        }
+        .bg-blur {
+            background-color: rgba(10, 17, 32, 0.85);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-[#050b14] text-gray-200 overflow-x-hidden selection:bg-[#d4af37] selection:text-[#050b14]">
+
+    <nav class="bg-blur border-b border-slate-800/60 sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full overflow-hidden border border-gold/35 bg-white p-0.5">
+                    <img src="https://i.ibb.co/VWVw4fWc/90096.jpg" alt="AlKhawaja Logo" class="w-full h-full object-contain">
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-cinzel text-lg md:text-xl font-bold tracking-widest text-[#d4af37]">AlKhawaja</span>
+                    <span class="text-[9px] tracking-[0.18em] text-gray-400 uppercase font-cinzel -mt-1">Photography & Production</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-reverse space-x-8 text-sm font-medium">
+                <a href="#home" class="hover:text-[#d4af37] transition-colors duration-300">الرئيسية</a>
+                <a href="#about" class="hover:text-[#d4af37] transition-colors duration-300">رؤيتنا</a>
+                <a href="#services" class="hover:text-[#d4af37] transition-colors duration-300">الخدمات</a>
+                <a href="#portfolio" class="hover:text-[#d4af37] transition-colors duration-300">معرض الأعمال</a>
+                <a href="#contact" class="hover:text-[#d4af37] transition-colors duration-300">تواصل معنا</a>
+            </div>
+            <div>
+                <a href="https://wa.me/963997188123?text=مرحباً%20شركة%20الخواجة،%20أود%20الاستفسار%20عن%20خدمات%20التصوير%20والإنتاج%20الفني" target="_blank" class="border border-[#d4af37]/60 text-[#d4af37] text-xs md:text-sm px-5 py-2 rounded-full hover:bg-[#d4af37] hover:text-[#050b14] transition-all duration-300 font-bold">احجز جلسة تصوير</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925&auto=format&fit=crop" class="w-full h-full object-cover opacity-25 scale-105 transform" alt="Cinematic Background">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#050b14] via-[#050b14]/50 to-[#050b14]"></div>
+        </div>
+        
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto space-y-6">
+            <div class="w-28 h-28 mx-auto rounded-full overflow-hidden border-2 border-[#d4af37] bg-white p-1 shadow-2xl shadow-[#d4af37]/20">
+                <img src="https://i.ibb.co/VWVw4fWc/90096.jpg" alt="AlKhawaja Big Logo" class="w-full h-full object-contain">
+            </div>
+            <span class="text-[#d4af37] tracking-widest text-xs md:text-sm font-bold uppercase block border-b border-[#d4af37]/20 pb-2 max-w-xs mx-auto">نصنع الكادر.. لنخلّد اللحظة</span>
+            <h1 class="font-cinzel text-4xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-[#d4af37] tracking-wide leading-tight">
+                AlKhawaja
+            </h1>
+            <p class="text-lg md:text-xl font-light text-gray-300 max-w-2xl mx-auto">
+                التميز في التفاصيل، والإبداع في الإنتاج البصري والموسيقي.
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#portfolio" class="w-full sm:w-auto bg-[#d4af37] text-[#050b14] px-8 py-3.5 font-bold hover:bg-[#f3cd44] transition-all duration-300 shadow-lg shadow-[#d4af37]/10 text-center">شاهد أعمالنا 🎬</a>
+                <a href="https://wa.me/963997188123" target="_blank" class="w-full sm:w-auto bg-slate-900/90 border border-slate-700 text-white px-8 py-3.5 font-medium hover:bg-slate-800 transition-all duration-300 text-center">تواصل سريع عبر واتساب 💬</a>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#about" class="text-[#d4af37]/70 hover:text-[#d4af37]"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></a>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-[#03070d] border-t border-slate-900">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white relative inline-block">
+                        من خلف العدسة؟
+                        <span class="absolute -bottom-2 right-0 w-12 h-1 bg-[#d4af37]"></span>
+                    </h2>
+                    <p class="text-gray-300 leading-relaxed text-lg pt-4">
+                        في <strong class="text-[#d4af37] font-cinzel">AlKhawaja Photography & Production</strong>، لا نقوم بمجرد التقاط صور أو تصوير مقاطع فيديو؛ نحن نروي قصصاً، ونصنع مشاعر تبقى حية. 
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        نحن شركة إنتاج متكاملة مجهزة بأحدث تقنيات التصوير السينمائي والإضاءة وهندسة الصوت، يوجهها شغف فني يسعى دائماً لتقديم جودة بصرية تضاهي المعايير العالمية في المهرجانات والحفلات والإنتاجات الإعلانية والمونتاج والتسجيل الموسيقي.
+                    </p>
+                </div>
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-[#d4af37] to-yellow-600 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
+                    <div class="relative bg-slate-900 p-2 rounded-lg border border-slate-800">
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1470&auto=format&fit=crop" class="w-full h-80 object-cover rounded" alt="About AlKhawaja">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-gradient-to-b from-[#03070d] to-[#050b14]">
+        <div class="container mx-auto px-6 text-center">
+            <span class="text-[#d4af37] text-xs font-bold uppercase tracking-widest">ماذا نقدم؟</span>
+            <h2 class="text-3xl md:text-5xl font-bold mt-2 mb-4 text-white">خدمات احترافية متكاملة</h2>
+            <div class="w-20 h-1 bg-[#d4af37] mx-auto mb-16"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-[#0a1120]/40 border border-slate-800/80 p-8 rounded-xl text-right transition duration-300 glow-effect group">
+                    <div class="w-14 h-14 bg-[#d4af37]/10 rounded-lg flex items-center justify-center text-[#d4af37] text-3xl mb-6 group-hover:bg-[#d4af37] group-hover:text-[#050b14] transition-all duration-300">👑</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">تصوير حفلات ضخمة</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">تغطية شاملة للحفلات والمناسبات الكبرى بأحدث الكاميرات والعدسات لتوثيق كل زاوية بدقة متناهية.</p>
+                </div>
+                <div class="bg-[#0a1120]/40 border border-slate-800/80 p-8 rounded-xl text-right transition duration-300 glow-effect group">
+                    <div class="w-14 h-14 bg-[#d4af37]/10 rounded-lg flex items-center justify-center text-[#d4af37] text-3xl mb-6 group-hover:bg-[#d4af37] group-hover:text-[#050b14] transition-all duration-300">🎪</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">تغطية مهرجانات</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">طواقم عمل متكاملة لتغطية المهرجانات الثقافية والفنية، وصناعة التقارير والملخصات السينمائية المبهرة.</p>
+                </div>
+                <div class="bg-[#0a1120]/40 border border-slate-800/80 p-8 rounded-xl text-right transition duration-300 glow-effect group">
+                    <div class="w-14 h-14 bg-[#d4af37]/10 rounded-lg flex items-center justify-center text-[#d4af37] text-3xl mb-6 group-hover:bg-[#d4af37] group-hover:text-[#050b14] transition-all duration-300">🤝</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">تعهد حفلات</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">إدارة، تنظيم، وتعهد الحفلات والمناسبات الفنية بالكامل بالتعاون مع نخبة من ألمع النجوم والفنانين.</p>
+                </div>
+                <div class="bg-[#0a1120]/40 border border-slate-800/80 p-8 rounded-xl text-right transition duration-300 glow-effect group">
+                    <div class="w-14 h-14 bg-[#d4af37]/10 rounded-lg flex items-center justify-center text-[#d4af37] text-3xl mb-6 group-hover:bg-[#d4af37] group-hover:text-[#050b14] transition-all duration-300">🎨</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">تصميم وطباعة</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">ابتكار الهويات البصرية، البوسترات السينمائية، والتصاميم الإعلانية التي تعكس قوة هويتك الفنية.</p>
+                </div>
+                <div class="bg-[#0a1120]/40 border border-slate-800/80 p-8 rounded-xl text-right transition duration-300 glow-effect group">
+                    <div class="w-14 h-14 bg-[#d4af37]/10 rounded-lg flex items-center justify-center text-[#d4af37] text-3xl mb-6 group-hover:bg-[#d4af37] group-hover:text-[#050b14] transition-all duration-300">📣</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">دعاية وإعلان</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">إنتاج حملات إعلانية وتلفزيونية إبداعية مدروسة بعناية لتضمن تحقيق أعلى نسب وصول وتأثير لجمهورك.</p>
+                </div>
+                <div class="bg-[#0a1120]/40 border border-slate-800/80 p-8 rounded-xl text-right transition duration-300 glow-effect group">
+                    <div class="w-14 h-14 bg-[#d4af37]/10 rounded-lg flex items-center justify-center text-[#d4af37] text-3xl mb-6 group-hover:bg-[#d4af37] group-hover:text-[#050b14] transition-all duration-300">🎤</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">مونتاج وتسجيل أغاني</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">تعديل وقص احترافي، هندسة صوتية متميزة، وتصحيح الألوان (Color Grading) لمنح أعمالك الروح الفنية الساحرة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 bg-[#03070d]">
+        <div class="container mx-auto px-6 text-center">
+            <span class="text-[#d4af37] text-xs font-bold uppercase tracking-widest">روائعنا</span>
+            <h2 class="text-3xl font-bold text-white mb-4 mt-1">من أعمالنا الأخيرة</h2>
+            <div class="w-16 h-1 bg-[#d4af37] mx-auto mb-12"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-[#050b14] border border-slate-800 rounded-xl overflow-hidden group hover:border-[#d4af37] transition duration-300">
+                    <div class="h-56 bg-slate-900 relative flex items-center justify-center overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1469&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 transition duration-500" alt="Zaffe">
+                        <div class="relative z-10 text-center p-4">
+                            <span class="bg-[#d4af37]/20 text-[#d4af37] text-xs px-3 py-1 rounded-full font-bold">برومو</span>
+                            <h3 class="text-xl font-bold mt-3 text-white">برومو زفة عريس فخم</h3>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-[#0a1120]/50 text-center">
+                        <a href="https://www.facebook.com/share/v/1CjNxYQvr2/" target="_blank" class="inline-block bg-[#d4af37] text-[#050b14] font-bold text-sm px-6 py-2.5 rounded hover:bg-white transition duration-300">💡 شاهد العمل على فيسبوك</a>
+                    </div>
+                </div>
+
+                <div class="bg-[#050b14] border border-slate-800 rounded-xl overflow-hidden group hover:border-[#d4af37] transition duration-300">
+                    <div class="h-56 bg-slate-900 relative flex items-center justify-center overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1470&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 transition duration-500" alt="Ad">
+                        <div class="relative z-10 text-center p-4">
+                            <span class="bg-[#d4af37]/20 text-[#d4af37] text-xs px-3 py-1 rounded-full font-bold">إعلان</span>
+                            <h3 class="text-xl font-bold mt-3 text-white">تصوير إعلان تجاري احترافي</h3>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-[#0a1120]/50 text-center">
+                        <a href="https://www.facebook.com/share/r/1Cy3oPxX8b/" target="_blank" class="inline-block bg-[#d4af37] text-[#050b14] font-bold text-sm px-6 py-2.5 rounded hover:bg-white transition duration-300">🎬 شاهد الإعلان كاملاً</a>
+                    </div>
+                </div>
+
+                <div class="bg-[#050b14] border border-slate-800 rounded-xl overflow-hidden group hover:border-[#d4af37] transition duration-300">
+                    <div class="h-56 bg-slate-900 relative flex items-center justify-center overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1542204172-e7052809a920?q=80&w=1374&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 transition duration-500" alt="Production">
+                        <div class="relative z-10 text-center p-4">
+                            <span class="bg-[#d4af37]/20 text-[#d4af37] text-xs px-3 py-1 rounded-full font-bold">دعاية وإعلان</span>
+                            <h3 class="text-xl font-bold mt-3 text-white">حملة دعاية وإنتاج مرئي</h3>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-[#0a1120]/50 text-center">
+                        <a href="https://www.facebook.com/share/r/14bZFkzR5kE/" target="_blank" class="inline-block bg-[#d4af37] text-[#050b14] font-bold text-sm px-6 py-2.5 rounded hover:bg-white transition duration-300">📣 شاهد العمل الإعلاني</a>
+                    </div>
+                </div>
+
+                <div class="bg-[#050b14] border border-slate-800 rounded-xl overflow-hidden group hover:border-[#d4af37] transition duration-300">
+                    <div class="h-56 bg-slate-900 relative flex items-center justify-center overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1470&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 transition duration-500" alt="Audio Studio">
+                        <div class="relative z-10 text-center p-4">
+                            <span class="bg-[#d4af37]/20 text-[#d4af37] text-xs px-3 py-1 rounded-full font-bold">تسجيل أغاني</span>
+                            <h3 class="text-xl font-bold mt-3 text-white">هندسة صوتية وتسجيل أغاني</h3>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-[#0a1120]/50 text-center">
+                        <a href="https://www.facebook.com/share/v/1BZWtzRydV/" target="_blank" class="inline-block bg-[#d4af37] text-[#050b14] font-bold text-sm px-6 py-2.5 rounded hover:bg-white transition duration-300">🎵 استمع للإنتاج الموسيقي</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-[#050b14] border-t border-slate-900">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+                
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <span class="text-[#d4af37] text-xs font-bold uppercase tracking-widest block mb-2">لنتعاون معاً</span>
+                        <h2 class="text-3xl md:text-4xl font-bold text-white">هل أنت مستعد لبدء مشروعك القادم؟</h2>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        تواصل معنا الآن لمناقشة أفكارك وتنسيق المواعيد لتغطية الحفلات والمهرجانات والإنتاج الإعلاني وهندسة الصوت.
+                    </p>
+                    
+                    <div class="space-y-4 pt-4 border-t border-slate-900">
+                        <h4 class="text-[#d4af37] font-bold text-sm">منصاتنا الرسمية:</h4>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://www.instagram.com/alkhawaja.photo?igsh=MTV1dmkyc3FkdDNscg==" target="_blank" class="bg-[#03070d] border border-slate-800 px-4 py-2.5 rounded text-sm text-gray-300 hover:text-[#d4af37] hover:border-[#d4af37] transition duration-300 flex items-center gap-2">
+                                📸 Instagram
+                            </a>
+                            <a href="https://www.facebook.com/share/1BTe4RcNRB/" target="_blank" class="bg-[#03070d] border border-slate-800 px-4 py-2.5 rounded text-sm text-gray-300 hover:text-[#d4af37] hover:border-[#d4af37] transition duration-300 flex items-center gap-2">
+                                🔵 Facebook
+                            </a>
+                            <a href="https://wa.me/963997188123" target="_blank" class="bg-[#03070d] border border-slate-800 px-4 py-2.5 rounded text-sm text-gray-300 hover:text-emerald-500 hover:border-emerald-500 transition duration-300 flex items-center gap-2">
+                                🟢 WhatsApp: +963 997 188 123
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-7 bg-[#0a1120]/30 p-8 rounded-2xl border border-slate-800">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-400 uppercase mb-2">الاسم الكريم</label>
+                                <input type="text" class="w-full bg-[#03070d] border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#d4af37] transition">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-gray-400 uppercase mb-2">رقم التواصل / الواتساب</label>
+                                <input type="tel" class="w-full bg-[#03070d] border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#d4af37] transition">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-400 uppercase mb-2">نوع الخدمة المطلوبة</label>
+                            <select class="w-full bg-[#03070d] border border-slate-800 rounded px-4 py-3 text-gray-400 text-sm focus:outline-none focus:border-[#d4af37] transition">
+                                <option>تصوير حفلة ضخمة</option>
+                                <option>تغطية مهرجان</option>
+                                <option>تعهد وتنظيم حفلات</option>
+                                <option>دعاية وإعلان / إنتاج مرئي</option>
+                                <option>تصميم وهويات بصرية</option>
+                                <option>مونتاج وتصحيح ألوان وتسجيل أغاني</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-400 uppercase mb-2">تفاصيل المشروع</label>
+                            <textarea rows="4" class="w-full bg-[#03070d] border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#d4af37] transition" placeholder="اكتب لنا تفاصيل المناسبة أو العمل الفني والموعد المقترح..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-[#d4af37] text-[#050b14] py-3.5 font-bold hover:bg-[#f3cd44] transition duration-300">إرسال الطلب للفريق</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#03070d] py-8 text-center border-t border-slate-900 text-xs text-gray-500">
+        <div class="font-cinzel text-sm font-bold text-[#d4af37]/90 mb-2">AlKhawaja Production</div>
+        <p>© 2026 جميع الحقوق محفوظة لشركة الخواجة للإنتاج الفني والتصوير.</p>
+    </footer>
+
+</body>
+</html>
